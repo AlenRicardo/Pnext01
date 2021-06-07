@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Layout from '../components/layout';
 
 const Index = () => {
     return ( 
-        <h1>Hello Work</h1>
+        <Layout>
+            <h1>Services</h1>
+        </Layout>
      );
 }
  
